@@ -2,6 +2,8 @@ import argparse
 import os
 from glob import glob
 
+import tensorflow as tf
+
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import LearningRateMonitor
 from pytorch_lightning.loggers import TensorBoardLogger, WandbLogger
